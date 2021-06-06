@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terminal</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <header>
+        <h3>Welcome to my Terminal! (V1.0.0)</h3>
+        <h3>For documentation enter "help" in the terminal</h3>
+        <h3 id="time"></h3>
+    </header>
+    <main>
+        <div class="container">
+            <div id="content" class="output"></div>
+                <div class="input-line">
+                    <div id="prompt" class="prompt-color">
+                    </div>
+                    <input type="text" id="cmdline" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"
+                    autofocus>
+                </div>
+        </div>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
